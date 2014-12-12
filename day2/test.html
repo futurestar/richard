@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/test.css">
+</head>
+<body>
+	<h1>This is h1</h1>
+	<h2>This is h2</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>name</th>
+				<th>age</th>
+				<th>sex</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Lily</td>
+				<td>13</td>
+				<td>Female</td>
+			</tr>
+			<tr>
+				<td>Tom</td>
+				<td>14</td>
+				<td>Male</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div>imag no border</div>
+
+	<img src="http://placehold.it/350x150" alt="hello" /><img src="http://placehold.it/130x100" alt="world" />
+
+	<div>*********css Specificty************</div>
+	<div class="container">
+		<div class="class-1" id="f-id">I am class-1</div>
+
+	</div>
+
+
+
+	<p>Element Type</p>
+
+	<span class="inline">inline</span>inline
+	<span class="block">block</span>block
+	<span class="inline-block">inline block</span>inline block
+
+	<p>float test</p>
+	<div style="border:1px solid #000" class="clearfix">
+		<div class="left"><img src="http://placehold.it/100x100" alt=""></div>
+		<div class="left"><img src="http://placehold.it/200x200" alt=""></div>
+		<div class="left"><img src="http://placehold.it/300x300" alt=""></div>
+	</div>
+	<div style="border:1px solid red" class="clearfix">
+		<div class="left"><img src="http://placehold.it/100x100" alt=""></div>
+		<div class="left"><img src="http://placehold.it/200x200" alt=""></div>
+		<div class="left"><img src="http://placehold.it/300x300" alt=""></div>
+	</div>
+
+	<p>position Test</p>
+
+
+	<p>box Model Test</p>
+	<div class="box-s">
+		<p>
+			width: 200px;
+			height: 200px;
+			background: #ccc;
+			box-sizing: border-box;
+		</p>
+	</div>
+	<div class="box-b">
+		<p>
+			width: 200px;
+			height: 200px;
+			background: #666;
+			margin: 20px;
+			padding: 50px;
+			box-sizing: border-box;
+		</p>
+	</div>
+
+	<p>transparrent Test</p>
+	<!-- <img src="http://placekitten.com/g/300/300" alt="" /> -->
+	<div class="tran-a">this is use rgba，content will not become transparent</div>
+	<div class="tran-o">this is use opacity,内容也会变透明</div>
+
+	
+</body>
+</html>
